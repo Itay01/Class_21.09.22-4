@@ -1,4 +1,4 @@
-﻿using System.Reflection.Metadata;
+using System.Reflection.Metadata;
 class ConsoleApp2
 {
     public static void Main()
@@ -12,9 +12,9 @@ class ConsoleApp2
         char sign = char.Parse(Console.ReadLine());
         if (sign == '+')
         {
-            Console.WriteLine("The sum of the numbers is {0}!", (num_1 + num_2));
+            Console.WriteLine("{0} + {1} = {2}!", num_1, num_2, (num_1 + num_2));
         }
         else
-            Console.WriteLine("The subtraction of the numbers is {0}!", (num_1 - num_2));
+            Console.WriteLine("{0} - {1} = {2}!", num_1, num_2, (num_1 - num_2));
     }
 }
